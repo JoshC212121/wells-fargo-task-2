@@ -35,7 +35,7 @@ public class Security {
 
     }
 
-    public Portfolio(String symbol, String type, int quantity, double price, double total, String purchaseDate) {
+    public Security(String symbol, String type, int quantity, double price, double total, String purchaseDate) {
         this.symbol = symbol;
         this.type = type;
         this.quantity = quantity;
